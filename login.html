@@ -157,6 +157,146 @@
         footer a:hover {
             text-decoration: underline;
         }
+        /* Estilos responsivos para móviles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 400px;
+        padding: 32px;
+        margin: 20px auto;
+    }
+
+    .logo img {
+        width: 60px; /* Reduce el tamaño del logo */
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .input-field {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .forgot-email {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .divider {
+        font-size: 13px;
+    }
+
+    .cancel-link a {
+        font-size: 13px;
+    }
+
+    .language-selector {
+        font-size: 13px;
+        margin-top: 16px;
+    }
+
+    .language-selector img {
+        width: 16px;
+    }
+
+    footer {
+        font-size: 11px;
+        padding: 16px;
+    }
+
+    footer a {
+        margin: 0 4px;
+        display: inline-block;
+        padding: 4px;
+    }
+}
+
+/* Para pantallas muy pequeñas (teléfonos compactos) */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .forgot-email {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .divider {
+        font-size: 12px;
+        margin: 12px 0;
+    }
+
+    .cancel-link a {
+        font-size: 12px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+/* Ajustes para la orientación horizontal en móviles */
+@media screen and (max-height: 600px) {
+    .container {
+        margin: 0;
+        padding: 16px;
+    }
+
+    .logo {
+        margin-bottom: 12px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .subtitle {
+        margin-bottom: 16px;
+    }
+
+    .forgot-email {
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        margin-bottom: 12px;
+    }
+}
+
+/* Ajustes para tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+        max-width: 500px;
+        padding: 32px;
+    }
+}
+
+ 
     </style>
 </head>
 
